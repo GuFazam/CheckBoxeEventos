@@ -50,5 +50,61 @@ namespace CheckBoxeEventos
             }
             MessageBox.Show(" A fruta escolhida foi: " + txt, "A fruta escolhida foi..."); // exibe a mensagem e as frutas escolhidas
         }
+
+        private void chkMaca_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkMaca.Checked)
+            {
+                MessageBox.Show(" O item Maçã marcado!");
+            }
+        }
+
+        private void chkPera_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkPera.Checked)
+            {
+                MessageBox.Show(" O item Pêra marcado!");
+            }
+        }
+
+        private void chkUva_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkUva.Checked)
+            {
+                MessageBox.Show(" O item Uva marcado!");
+            }
+        }
+
+        private void chkAbacaxi_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkAbacaxi.Checked)
+            {
+                MessageBox.Show(" O item Abacaxi!");
+            }
+        }
+
+        private void chkMorango_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkMorango.Checked)
+            {
+                MessageBox.Show(" O item Morango!");
+            }
+        }
+
+        private void chkBanana_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkBanana.Checked)
+            {
+                MessageBox.Show(" O item Banana!");
+            }
+        }
+
+        private void chkMamao_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkMamao.Checked)
+            {
+                MessageBox.Show(" O item Mamão!");
+            }
+        }
     }
 }

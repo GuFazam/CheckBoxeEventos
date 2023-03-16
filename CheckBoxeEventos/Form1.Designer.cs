@@ -50,6 +50,7 @@
             this.chkMaca.TabIndex = 0;
             this.chkMaca.Text = "Maçã";
             this.chkMaca.UseVisualStyleBackColor = true;
+            this.chkMaca.CheckedChanged += new System.EventHandler(this.chkMaca_CheckedChanged);
             // 
             // chkPera
             // 
@@ -62,6 +63,7 @@
             this.chkPera.TabIndex = 1;
             this.chkPera.Text = "Pêra";
             this.chkPera.UseVisualStyleBackColor = true;
+            this.chkPera.CheckedChanged += new System.EventHandler(this.chkPera_CheckedChanged);
             // 
             // chkUva
             // 
@@ -74,6 +76,7 @@
             this.chkUva.TabIndex = 2;
             this.chkUva.Text = "Uva";
             this.chkUva.UseVisualStyleBackColor = true;
+            this.chkUva.CheckedChanged += new System.EventHandler(this.chkUva_CheckedChanged);
             // 
             // chkAbacaxi
             // 
@@ -86,6 +89,7 @@
             this.chkAbacaxi.TabIndex = 3;
             this.chkAbacaxi.Text = "Abacaxi";
             this.chkAbacaxi.UseVisualStyleBackColor = true;
+            this.chkAbacaxi.CheckedChanged += new System.EventHandler(this.chkAbacaxi_CheckedChanged);
             // 
             // chkMorango
             // 
@@ -98,6 +102,7 @@
             this.chkMorango.TabIndex = 4;
             this.chkMorango.Text = "Morango";
             this.chkMorango.UseVisualStyleBackColor = true;
+            this.chkMorango.CheckedChanged += new System.EventHandler(this.chkMorango_CheckedChanged);
             // 
             // chkBanana
             // 
@@ -110,6 +115,7 @@
             this.chkBanana.TabIndex = 5;
             this.chkBanana.Text = "Banana";
             this.chkBanana.UseVisualStyleBackColor = true;
+            this.chkBanana.CheckedChanged += new System.EventHandler(this.chkBanana_CheckedChanged);
             // 
             // chkMamao
             // 
@@ -122,6 +128,7 @@
             this.chkMamao.TabIndex = 6;
             this.chkMamao.Text = "Mamão";
             this.chkMamao.UseVisualStyleBackColor = true;
+            this.chkMamao.CheckedChanged += new System.EventHandler(this.chkMamao_CheckedChanged);
             // 
             // label1
             // 
