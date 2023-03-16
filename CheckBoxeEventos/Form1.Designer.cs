@@ -145,7 +145,7 @@
             this.btnEscolha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEscolha.Location = new System.Drawing.Point(377, 28);
             this.btnEscolha.Name = "btnEscolha";
-            this.btnEscolha.Size = new System.Drawing.Size(273, 23);
+            this.btnEscolha.Size = new System.Drawing.Size(291, 23);
             this.btnEscolha.TabIndex = 8;
             this.btnEscolha.Text = "Escolha a Fruta ao lado e clique aqui";
             this.btnEscolha.UseVisualStyleBackColor = true;
